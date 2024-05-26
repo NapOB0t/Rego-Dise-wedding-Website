@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="/CSS-Files/Form.css">
+</head>
+<body>
+ <section class="Container">
+  <header class="SecInContainer Header">
+    <span><button class="Button1"><a href="Invitation List.html" class="BackButton"><--Back</a></button></span>
+    <h1 class="H1">RSVP Details form</h1>
+  </header>
+  <section class="SecInContainer MiddleSec">
+    <div class="Firstparagraph"><p><strong>Please fill in the form below</strong></p></div>
+    <div>
+      <form action="#" class="DetailsForm">
+        <div class="Aside1">
+          <label for="Fname" class="Csame">First Name</label>
+          <input type="text" id="Fname" required autofocus class="Csame"><br><br>
+          <label for="Lname" class="Csame">Last Name</label>
+          <input type="text" id="Lname" class="Csame" required><br><br>
+          <label for="Diet" class="Csame">Are your on a certain diet ?</label><br>
+          <input type="radio" id="Yes" name="Option" value="Yes" required class="Csame">
+          <label for="Yes" class="Csame">Yes (<i>Please select your Preferred food on the Menu</i>)</label>
+          <input type="radio" id="No" name="Option" value="No" class="Csame">
+          <label for="No" class="Csame">No</label><br><br>
+          <label for="Diet" class="Csame">Are you bringing a <strong>PLUS</strong> one ?</label>
+          <input type="radio" class="Csame" id="Yes2" name="Option2" value="Yes" required>
+          <label for="Yes2" class="Csame">Yes</label>
+          <input type="radio" class="Csame" id="No2" name="Option2" value="No">
+          <label for="No2" class="Csame">No</label><br><br>
+          <label for="Advice" class="Csame">What is your best piece of Marriage <strong>ADVICE: </strong></label><br>
+          <textarea name="Advice" rows="20" cols="35" class="Csame"></textarea><br><br>
+          <input type="submit" class="SubmitButton" value="Submit" formaction="HomePage.html" onclick="alert('Successfully Submitted the form')">
+          
+
+        </div>
+        <div class="Aside2">
+          <h4>Menu(Preferred Meals)</h4>
+          <div class="Aside2Content">
+            <input type="checkbox">
+            <label for="fat-Cake">Vetkoeks</label><br><br>
+            <input type="checkbox">
+            <label for="meal1">Seswaa (<i>Pap and Beef Meat)</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="tribe">Mogodu</label><br><br>
+            <input type="checkbox">
+            <label for="meal2">Dikgobe (<i>Starch Meal)</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="bun">Phaphatha (<i>Fluffy Buns</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="Poridge">Bogobe (<i>Poridge</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="stew">Chicken Groundnut stew</label><br><br>
+            <input type="checkbox">
+            <label for="Ox-tail">Mokgatla(<i>Ox-tail</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="Spinach">Morogo (<i>Spinach</i>)</label><br><br>
+            <input type="checkbox">
+            <label for="Pap">Phaletshe (<i>Pap</i>)</label>
+          </div>
+        </div>
+      
+      </form>
+    </div>
+  </section>
+ </section>
+</body>
+</html>

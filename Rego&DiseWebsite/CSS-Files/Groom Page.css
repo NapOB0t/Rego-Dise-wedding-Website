@@ -1,0 +1,201 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body
+{
+    display: grid;
+    grid-template-rows: 2fr 5fr 1fr;
+    height: 1000px;
+    
+
+    height: 1000px;
+   background-image: url(/images/backF1.jfif);
+   
+   
+
+}
+@font-face {
+    font-family: Austie;
+    src: url(/Fonts/Austie\ Bost\ Juliana/);
+}
+
+/* header */
+.Head
+{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.Nav3
+{
+    list-style: none;
+    display: flex;
+    
+    gap: 2em;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.Menu>a
+{
+    
+    text-decoration: none;
+    color:rgb(26, 152, 202);
+    font-weight: bolder;
+    font-size:larger;
+    border-radius:15px ;
+    padding: 10px;
+
+}
+header
+{
+    background-color: whitesmoke;
+    height: 100px;
+    margin-top: 0px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top:10px;
+    border-radius: 10px;
+}
+nav{ 
+    padding-top: 5px;
+    padding-left: 80px;
+    }
+header nav ul li:hover a
+{
+    background-image: url(/images/Header\ background.jpg);
+    transition: 1s;
+    border-radius: 5px;
+    padding: 7px 7px 7px 7px;
+    color: white;
+}
+.Menu>a:hover
+nav{ 
+    background-image: url(/images/Header\ background.jpg);
+}
+header nav ul li
+{
+    transition: 1s;
+}
+
+header section:hover p
+{
+    color: skyblue;
+    font-size: 5rem;
+    font-family: monospace;
+    transition: ease-out 2s;
+    height: 100px;}
+header
+    {
+        position: sticky;
+        top: 20px;
+    }
+
+/* main */
+.MAIN5
+{
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    margin-top: 0px;
+}
+
+.INSEC5
+{
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+
+
+
+
+
+body main .Sec5
+{
+    font-size: large;
+    font-family: Austie;
+    color: white;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 30px
+}
+
+.Sec5 audio
+{
+    position: relative;
+    left: 100px;
+}
+
+main{
+    margin-top: 40px;
+}
+
+figcaption
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo
+{
+    background-image: url(/images/Brown\ Black\ Feminine\ Wedding\ Planner\ Logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+img
+{
+    width:100%;
+    height:500px
+}
+iframe
+{
+    margin-top: 50px;
+}
+
+.music{
+    margin:auto
+}
+footer
+{   
+    background-color: white;
+    margin-top: 80px;
+    
+}
+footer section{
+    display:flex;
+    float:left;
+    
+}
+#Contactinfo{
+    display:flex;
+    
+    border-left:2px solid black ;
+    
+}
+#Contactinfo img{
+    display:inline; 
+    width:30px;
+    height: 30px;
+}
+#Contactinfo{
+    display: block;
+    padding-left: 40px;
+}
+#copywrite{
+    padding: 50px;
+    color:black;
+    
+    
+}
+@font-face {
+    font-family: Austie Bost Juliana ;
+    src: url(/Fonts/Austie\ Bost\ Juliana/);
+}
+
+
+
+

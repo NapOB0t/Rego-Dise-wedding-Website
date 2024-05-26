@@ -1,0 +1,147 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Container
+{
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8,2fr);
+  grid-auto-rows: minmax(100px,auto);
+  grid-template-areas:
+  "header header header header header header header header"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  ; 
+  background-image: url(/images/BackPicAS2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.Header
+{
+  grid-area: header;
+}
+.MiddleSec
+{
+  background-image: url(/images/backF1.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-area: BodySec;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.DetailsForm
+{
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8,2fr);
+  grid-auto-rows: minmax(100px,auto);
+  grid-template-areas:
+  "aside1 aside1 aside1 aside1 aside1 aside2 aside2 aside2"
+  "aside1 aside1 aside1 aside1 aside1 aside2 aside2 aside2"
+  "aside1 aside1 aside1 aside1 aside1 aside2 aside2 aside2"
+  "aside1 aside1 aside1 aside1 aside1 aside2 aside2 aside2"
+  "aside1 aside1 aside1 aside1 aside1 aside2 aside2 aside2"
+  ;
+
+}
+.Aside1
+{
+  margin-left: 15px;
+  margin-top: 20px;
+  grid-area: aside1;
+  box-shadow: 12px 12px 12px 12px;
+  /* background-image: url(/RSVP-images/backF1.jfif); */
+  background: radial-gradient(blue,rgb(12, 12, 114));
+
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+.Aside2
+{
+  margin-left: 15px;
+  margin-top: 20px;
+  grid-area: aside2;
+  background-image: url(/images/BackPicAS2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.H1
+{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+h4
+{
+  color: white;
+  font-size: larger;
+}
+label
+{
+  color: white;
+  font-size: larger;
+}
+.SubmitButton
+{
+margin-left: 200px;
+padding: 10px;
+border-radius: 10px;
+}
+.SubmitButton:hover
+{
+background-color: blue;
+color: white;
+}
+.Csame
+{
+margin-top: 10px;
+margin-left: 20px;
+}
+.Firstparagraph>p
+{
+text-align: center;
+font-size: larger;
+color: white;
+}
+body
+{
+  background-image: url(/images/shwe1.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+
+}
+.BackButton
+{
+text-decoration: none;
+padding: 10px;
+color: black;
+}
+.BackButton:hover
+{
+color: white;
+
+}
+.Button1
+{
+padding: 2px;
+
+}
+.Button1:hover
+{
+background-color: blue;
+
+}

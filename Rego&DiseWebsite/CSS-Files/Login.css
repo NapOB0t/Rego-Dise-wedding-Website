@@ -1,0 +1,106 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body
+{
+  background-image: url(/images/back.jfif);
+  background-size: 100% 100%;
+}
+
+#bodyContainer
+{
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 4fr 7fr;
+  border: 2px solid blue;
+  height: 700px;
+  width: 1200px;
+}
+.Form-Container
+{
+  height: 700px;
+  border: 2px solid blue;
+  border-bottom-left-radius: 500px;
+  background-image: url(/images/backF3best.jfif);
+  background-size: 100% 100%;
+}
+.Aside
+{
+  border: 2px outset blue;
+  border-bottom-right-radius: 500px;
+  background-image: url(/images/Couple.jfif);
+  background-size: contain;
+  background-attachment: fixed;
+ 
+
+}
+fieldset
+{
+  width: 60%;
+  height: 600px;
+  margin-left: 200px;
+  margin-top: 20px;
+  background-image: url(/images/wedding\ log.jfif);
+  background-size: 100% 100%;
+  border:2px inset aqua;
+
+
+}
+#Header
+{
+  font-size:30px;
+  margin-left: 230px;
+  color: rgb(255, 255, 255);
+
+}
+#Log-Paragraph
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+
+}
+.LogElements
+{
+  text-align: center;
+  
+}
+.Label-for-field
+{
+  margin-top: 150px;
+  color: white;
+}
+#InvCode
+{
+  width: 200px;
+  border-radius: 12px;
+} 
+.Log-Button
+{
+  margin-left: 180px;
+  margin-top: 10px;
+  width: 100px;
+  color:  rgb(0, 4, 235);
+} 
+legend
+{
+  color: white;
+}  
+.BackButton
+{
+  text-decoration: none;
+  padding: 20px;
+  color: blue;
+}
+.Out-BackButton:hover
+{
+  background-color: skyblue;
+}
+.Button
+{
+  margin-left: 40px;
+}

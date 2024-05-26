@@ -1,0 +1,136 @@
+body
+{
+  background-image: url(/images/Background\ 2.jpg);
+  background-size: contain;
+  background-repeat:repeat;
+}
+#Container
+{
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8,2fr);
+  grid-auto-rows: minmax(100px,auto);
+  width: 1200px;
+  background-image: url(/images/back.jfif);
+  background-size: contain;
+  background-repeat:repeat;
+  grid-template-areas: 
+  "header header header header header header header header"
+  "header header header header header header header header"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "BodySec BodySec BodySec BodySec BodySec BodySec BodySec BodySec"
+  "FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec"
+  "FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec FooterSec"
+  ;
+
+}
+#Container>.BodyContent
+{
+  margin: 0 auto;
+  width: 1000px;
+
+}
+.BodyHeader
+{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 70px;
+  color: white;
+  
+}
+
+.Header
+{
+  grid-area: header;
+  display: inline-block;
+}
+.MiddleSec
+{
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px 10px;
+  grid-area: BodySec;
+  background-image: url(/images/backF3best.jfif);
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.Footer
+{
+  grid-area: FooterSec;
+}
+.BackButton1
+{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 20px;
+  border-radius: 70px;
+  background-color: white;
+  border-color: blue;
+}
+.BackButton1>a
+{
+  text-decoration: none;
+  color: blue;
+
+}
+.ListContent>a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: larger;
+}
+.ListContent
+{
+  margin-left: 270px;
+}
+.ListContent>a:hover
+{
+  color: rgb(2, 0, 148);
+}
+.ListContent:hover
+{
+  width: 250px;
+  background-color: skyblue;
+}
+.BodyParagraphSec>p
+{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+#Search
+{
+  border-radius: 60px;
+  color: white;
+}
+.TextSearch
+{
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+}
+.Footer>p
+{
+  text-align: center;
+  color: white;
+}
+.Fcontent1
+{
+  margin-top: 50px;
+}
+.BackButton1:hover
+{
+  background-color: skyblue;
+}
+ol
+{
+  list-style: none;
+}
